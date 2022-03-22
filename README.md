@@ -1,9 +1,6 @@
 # Demo Video Link: https://mediaspace.njit.edu/media/Ritika+Suresh+IT202+Final+Demo/1_pgrg2ghr
 # Project Name: Simple Bank
 ## Project Summary: This project will create a bank simulation for users. They’ll be able to have various accounts, do standard bank functions like deposit, withdraw, internal (user’s accounts)/external(other user’s accounts) transfers, and creating/closing accounts.
-## Github Link: https://github.com/sureshritika/IT202-001/tree/prod
-## Project Board Link: https://github.com/sureshritika/IT202-001/projects/2
-## Website Link: https://rs2392-prod.herokuapp.com/
 ## Your Name: Ritika Suresh
 
 <!--
