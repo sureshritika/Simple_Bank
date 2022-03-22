@@ -1,0 +1,370 @@
+# Demo Video Link: https://mediaspace.njit.edu/media/Ritika+Suresh+IT202+Final+Demo/1_pgrg2ghr
+# Project Name: Simple Bank
+## Project Summary: This project will create a bank simulation for users. They’ll be able to have various accounts, do standard bank functions like deposit, withdraw, internal (user’s accounts)/external(other user’s accounts) transfers, and creating/closing accounts.
+## Github Link: https://github.com/sureshritika/IT202-001/tree/prod
+## Project Board Link: https://github.com/sureshritika/IT202-001/projects/2
+## Website Link: https://rs2392-prod.herokuapp.com/
+## Your Name: Ritika Suresh
+
+<!--
+### Line item / Feature template (use this for each bullet point)
+#### Don't delete this
+
+- [ ] \(mm/dd/yyyy of completion) Feature Title (from the proposal bullet point, if it's a sub-point indent it properly)
+  -  List of Evidence of Feature Completion
+    - Status: Pending (Completed, Partially working, Incomplete, Pending)
+    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
+    - Pull Requests
+      - PR link #1 (repeat as necessary)
+    - Screenshots
+      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #1 description explaining what you're trying to show
+### End Line item / Feature Template
+--> 
+### Proposal Checklist and Evidence
+
+- Milestone 1            
+    - [x] \(10/11/2021) User will be able to register a new account
+        -  List of Evidence of Feature Completion
+            - Status: Completed
+            - Direct Link: https://rs2392-prod.herokuapp.com/Project/register.php
+            - Pull Requests
+                - PR link #1: https://github.com/sureshritika/IT202-001/pull/13
+            - Screenshots
+                - Screenshot #1: ![image](https://user-images.githubusercontent.com/71915358/140791195-9132fe3f-28b2-4e5f-a4f0-8b5dc0d2d8fe.png)
+                    - Screenshot #1 description: Empty register page.
+                - Screenshot #2: ![image](https://user-images.githubusercontent.com/71915358/141125554-e4e6e0c6-0d3b-4438-8407-093b40391e6d.png)
+                   - Screenshot #2 description: New user successfully registered and form remembers email/username.
+    - [x] \(10/11/2021) User will be able to login to their account (given they enter the correct credentials)
+        -  List of Evidence of Feature Completion
+            - Status: Completed
+            - Direct Link: https://rs2392-prod.herokuapp.com/Project/login.php
+            - Pull Requests
+                - PR link #1: https://github.com/sureshritika/IT202-001/pull/13
+            - Screenshots
+                - Screenshot #1: ![image](https://user-images.githubusercontent.com/71915358/140791791-2544751a-5811-4ec1-a3a6-3aebd1a68a6e.png)
+                   - Screenshot #1 description: Empty login page.
+                - Screenshot #2: ![image](https://user-images.githubusercontent.com/71915358/141170483-44d47f6f-64ae-4046-912c-c5014c72aba1.png)
+                   - Screenshot #2 description: Returning user successfully logged in and lead to home page.
+    - [x] \(11/8/2021) User will be able to logout
+        -  List of Evidence of Feature Completion
+            - Status: Completed
+            - Direct Link: https://rs2392-prod.herokuapp.com/Project/logout.php
+            - Pull Requests
+                - PR link #1: https://github.com/sureshritika/IT202-001/pull/44
+            - Screenshots
+                - Screenshot #1: ![image](https://user-images.githubusercontent.com/71915358/141170615-321cd270-b58f-4405-a4e9-2145e1aad2c1.png)
+                    - Screenshot #1 description: User successfully logged out and lead to login page.
+    - [x] \(10/25/2021) Basic security rules implemented
+        -  List of Evidence of Feature Completion
+            - Status: Completed
+            - Direct Link: https://rs2392-prod.herokuapp.com/Project/profile.php
+            - Pull Requests
+                - PR link #1: https://github.com/sureshritika/IT202-001/pull/28
+            - Screenshots
+                - Screenshot #1: ![image](https://user-images.githubusercontent.com/71915358/140793830-934688f0-7dbb-4bbe-b89a-22859773a477.png)
+                    - Screenshot #1 description: When going to profile.php without logging in, error message recieved.
+    - [x] \(10/25/2021) Basic Roles implemented
+        -  List of Evidence of Feature Completion
+            - Status: Completed
+            - Direct Link: https://rs2392-prod.herokuapp.com/Project/admin/list_roles.php
+            - Pull Requests
+                - PR link #1: https://github.com/sureshritika/IT202-001/pull/28 
+            - Screenshots
+                - Screenshot #1: ![image](https://user-images.githubusercontent.com/71915358/141170853-7630d281-8536-4f89-8c78-51cad6fcd97a.png)
+                    - Screenshot #1 description: Admin Roles dropdown menu only for admin user.
+    - [x] \(10/11/2021) Site should have basic styles/theme applied; everything should be styled
+        -  List of Evidence of Feature Completion
+            - Status: Completed
+            - Direct Link: https://rs2392-prod.herokuapp.com/Project/styles.css
+            - Pull Requests
+                - PR link #1: https://github.com/sureshritika/IT202-001/pull/26
+            - Screenshots
+                - Screenshot #1: ![image](https://user-images.githubusercontent.com/71915358/140791195-9132fe3f-28b2-4e5f-a4f0-8b5dc0d2d8fe.png)
+                    - Screenshot #1 description: Nav bar, forms/input
+    - [x] \(10/11/2021) Any output messages/errors should be “user friendly”
+        -  List of Evidence of Feature Completion
+            - Status: Completed
+            - Direct Link: https://rs2392-prod.herokuapp.com/Project/login.php
+            - Pull Requests
+                - PR link #1: https://github.com/sureshritika/IT202-001/pull/14
+            - Screenshots
+                - Screenshot #1: ![image](https://user-images.githubusercontent.com/71915358/141127214-4268bd43-a6cd-4855-8e10-bca4287a51a0.png)
+                    - Screenshot #1 description: Flash messages used for better user alerts/notifications.
+    - [x] \(10/11/2021) User will be able to see their profile
+        -  List of Evidence of Feature Completion
+            - Status: Completed
+            - Direct Link: https://rs2392-prod.herokuapp.com/Project/profile.php
+            - Pull Requests
+                - PR link #1: https://github.com/sureshritika/IT202-001/pull/29
+            - Screenshots
+                - Screenshot #1: ![image](https://user-images.githubusercontent.com/71915358/140822439-2cdcafef-5e15-4b4d-a72a-b6fc79802abc.png)
+                    - Screenshot #1 description: Profile page.
+    - [x] \(10/11/2021) User will be able to edit their profile
+        -  List of Evidence of Feature Completion
+            - Status: Completed
+            - Direct Link: https://rs2392-prod.herokuapp.com/Project/profile.php
+            - Pull Requests
+                - PR link #1: https://github.com/sureshritika/IT202-001/pull/29
+            - Screenshots
+                - Screenshot #1: ![image](https://user-images.githubusercontent.com/71915358/140822777-2f4a26d3-407d-43a4-83f1-8e2b3c73d3e5.png)
+                    - Screenshot #1 description: Password reset.
+                - Screenshot #2: ![image](https://user-images.githubusercontent.com/71915358/140850147-ea7b27a7-ead1-4824-8afe-c6d138fc3c56.png)
+                    - Screenshot #2 description: Changing username checks to see if it's available  before allowing the change.
+- Milestone 2
+    - [x] \(11/17/2021) Create the Accounts table
+        - List of Evidence of Feature Completion
+            - Status: Completed
+            - Direct Link: https://rs2392-prod.herokuapp.com/Project/my_accounts.php
+            - Pull Requests
+                -  PR link #1: https://github.com/sureshritika/IT202-001/pull/85
+            - Screenshots
+                - Screenshot #1: ![image](https://user-images.githubusercontent.com/71915358/143789123-3cc8383b-6ed8-4509-8ac8-e937bfcfdf83.png)
+                    - Screenshot #1 description: Accounts table in database.
+    - [x] \(11/17/2021) Project setup steps
+        - List of Evidence of Feature Completion
+            - Status: Completed
+            - Direct Link: https://rs2392-prod.herokuapp.com/Project/sql/init_db.php
+            - Pull Requests
+                -  PR link #1: https://github.com/sureshritika/IT202-001/pull/86
+            - Screenshots
+                - Screenshot #1: ![image](https://user-images.githubusercontent.com/71915358/143789528-1106f09a-e9db-431b-89b4-a4689bc75c3c.png)
+                    - Screenshot #1 description: System user.
+                - Screenshot #2: ![image](https://user-images.githubusercontent.com/71915358/143789618-4f9e3aa8-bdc4-4903-9975-8f248f691acb.png)
+                    - Screenshot #2 description: World account connected to system user.
+    - [x] \(11/17/2021) Create the Transactions table
+        - List of Evidence of Feature Completion
+            - Status: Completed
+            - Direct Link: https://rs2392-prod.herokuapp.com/Project/transaction_history.php?row_index=0
+            - Pull Requests
+                -  PR link #1: https://github.com/sureshritika/IT202-001/pull/86
+            - Screenshots
+                - Screenshot #1: ![image](https://user-images.githubusercontent.com/71915358/143789716-d04d60a4-d656-4d14-aea4-df5c0ea958a4.png)
+                    - Screenshot #1 description: Transactions table in database.
+    - [x] \(11/17/2021) Dashboard page
+        - List of Evidence of Feature Completion
+            - Status: Completed
+            - Direct Link: https://rs2392-prod.herokuapp.com/Project/dashboard.php
+            - Pull Requests
+                -  PR link #1: https://github.com/sureshritika/IT202-001/pull/86
+            - Screenshots
+                - Screenshot #1: ![image](https://user-images.githubusercontent.com/71915358/143789777-94acc239-9e88-4186-b478-e1c82fbdd67f.png)
+                    - Screenshot #1 description: Dashboard page with links.
+    - [x] \(11/25/2021) User will be able to create a checking account
+        - List of Evidence of Feature Completion
+            - Status: Completed
+            - Direct Link: https://rs2392-prod.herokuapp.com/Project/create_account.php
+            - Pull Requests
+                -  PR link #1: https://github.com/sureshritika/IT202-001/pull/86
+            - Screenshots
+                - Screenshot #1: ![image](https://user-images.githubusercontent.com/71915358/143789895-21f44ea7-319e-460e-97d2-e520eb104218.png)
+                    - Screenshot #1 description: Create account page.
+                - Screenshot #2: ![image](https://user-images.githubusercontent.com/71915358/143790004-7be1e77b-d958-4c12-9f98-74f6e5763236.png)
+                    - Screenshot #2 description: Redirects user to Accounts page and displays successfully created message.
+                - Screenshot #2: ![image](https://user-images.githubusercontent.com/71915358/143790051-42c833bf-1aeb-48fa-ab57-00d6807ba896.png)
+                    - Screenshot #2 description: Accounts balance updated with deposit amount for user and world accounts and Transaction pair recorded in table 
+    - [x] \(11/19/2021) User will be able to list their accounts
+        - List of Evidence of Feature Completion
+            - Status: Completed
+            - Direct Link: https://rs2392-prod.herokuapp.com/Project/my_accounts.php
+            - Pull Requests
+                -  PR link #1: https://github.com/sureshritika/IT202-001/pull/86
+            - Screenshots
+                - Screenshot #1: ![image](https://user-images.githubusercontent.com/71915358/143790181-9ed0e7f8-2482-453c-ae00-3f47481a0cfe.png)
+                    - Screenshot #1 description: My accounts page with display limit of 5.
+    - [x] \(11/21/2021) User will be able to click an account for more information
+        - List of Evidence of Feature Completion
+            - Status: Completed
+            - Direct Link: https://rs2392-prod.herokuapp.com/Project/transaction_history.php?row_index=0
+            - Pull Requests
+                -  PR link #1: https://github.com/sureshritika/IT202-001/pull/86
+            - Screenshots
+                - Screenshot #1: ![image](https://user-images.githubusercontent.com/71915358/143790307-1421e998-7e2a-4067-87de-537820ac5cc6.png)
+                    - Screenshot #1 description: Transaction history page with display limit of 10.
+    - [x] \(11/27/2021) User will be able to deposit/withdraw from their account(s)
+        - List of Evidence of Feature Completion
+            - Status: Completed
+            - Direct Links
+                - Direct link #1: https://rs2392-prod.herokuapp.com/Project/deposit.php
+                - Direct link #2: https://rs2392-prod.herokuapp.com/Project/withdraw.php
+            - Pull Requests
+                -  PR link #1: https://github.com/sureshritika/IT202-001/pull/88
+                -  PR link #1: https://github.com/sureshritika/IT202-001/pull/89
+            - Screenshots
+                - Screenshot #1: ![image](https://user-images.githubusercontent.com/71915358/143790387-21d2ab07-4e35-4474-b87d-74c5b0ceaf15.png)
+                    - Screenshot #1 description: Deposit page.
+                - Screenshot #2: ![image](https://user-images.githubusercontent.com/71915358/143790427-95efa09f-b882-4799-bfc9-0e1a3fe4072b.png)
+                    - Screenshot #2 description: Dropdown of users accounts.
+                - Screenshot #3: ![image](https://user-images.githubusercontent.com/71915358/143790565-0f8c8a2c-3758-4250-bd9c-67694d3cbcf2.png)
+                    - Screenshot #3 description: In withdraw, checks for sufficient funds.
+                - Screenshot #4: ![image](https://user-images.githubusercontent.com/71915358/143790613-8a03b621-94a5-40ce-a71f-dc805909018f.png)
+                    - Screenshot #4 description: Transaction history page reflects changes made.
+                - Screenshot #5: ![image](https://user-images.githubusercontent.com/71915358/143790783-9495b4ac-e9b4-45c0-b54a-529312519ee0.png)
+                    - Screenshot #5 description: User and world balances are updated accordingly for withdraw/deposit.
+- Milestone 3
+    - [x] \(12/04/2021) User will be able to transfer between their accounts
+        - List of Evidence of Feature Completion
+            - Status: Completed
+            - Direct Link: https://rs2392-prod.herokuapp.com/Project/transfer.php
+            - Pull Requests
+                -  PR link #1: https://github.com/sureshritika/IT202-001/pull/98
+            - Screenshots
+                - Screenshot #1: ![image](https://user-images.githubusercontent.com/71915358/145658541-e474fea4-75fe-4b85-a468-a317b52015d8.png)
+                    - Screenshot #1 description: Transfer page.
+                - Screenshot #2: ![image](https://user-images.githubusercontent.com/71915358/145658805-4fb71b54-ea73-412b-9fed-cb83f09da6a7.png)
+                    - Screenshot #2 description: Dropdown shows all of user's own accounts.
+                - Screenshot #3: ![image](https://user-images.githubusercontent.com/71915358/145658822-b6a4efc7-88a0-4401-aafe-0b7427f5d58a.png)
+                    - Screenshot #3 description: Error shown if insufficient funds.
+                - Screenshot #4: ![image](https://user-images.githubusercontent.com/71915358/145658956-413ee129-8b93-4f55-bd4f-7cacb4a58f70.png)
+                    - Screenshot #4 description: Transaction pair updated in Transaction table.
+    - [x] \(12/09/2021) Transaction History page
+        - List of Evidence of Feature Completion
+            - Status: Completed
+            - Direct Link: https://rs2392-prod.herokuapp.com/Project/transaction_history.php?row_index=0
+            - Pull Requests
+                -  PR link #1: https://github.com/sureshritika/IT202-001/pull/109
+            - Screenshots
+                - Screenshot #1: ![image](https://user-images.githubusercontent.com/71915358/145659102-c80a0d35-6557-4b8d-a936-99e3fa034007.png)
+                    - Screenshot #1 description: Transaction history page shows 10 transactions at time with latest 10 first.
+                - Screenshot #2: ![image](https://user-images.githubusercontent.com/71915358/145659136-a62aec09-4ae5-4bff-ae46-4e0225e36354.png)
+                    - Screenshot #2 description: With filters.
+    - [x] \(11/24/2021) User’s profile page should record/show First and Last name
+        - List of Evidence of Feature Completion
+            - Status: Completed
+            - Direct Link: https://rs2392-prod.herokuapp.com/Project/profile.php
+            - Pull Requests
+                -  PR link #1: https://github.com/sureshritika/IT202-001/pull/86/files
+            - Screenshots
+                - Screenshot #1: ![image](https://user-images.githubusercontent.com/71915358/145659415-8cf67161-b714-44fd-9eb1-c4ca998fe92b.png)
+                    - Screenshot #1 description: Profile page shows first and last name.
+    - [x] \(12/10/2021) User will be able to transfer funds to another user’s account
+        - List of Evidence of Feature Completion
+            - Status: Completed
+            - Direct Link: https://rs2392-prod.herokuapp.com/Project/transfer.php
+            - Pull Requests
+                -  PR link #1: https://github.com/sureshritika/IT202-001/pull/111
+            - Screenshots
+                - Screenshot #1: ![image](https://user-images.githubusercontent.com/71915358/145659540-de4f8f7f-3659-4b8b-8012-90f91e03b935.png)
+                    - Screenshot #1 description: Field for dest user last name and last 4 digits of account number.
+                - Screenshot #2: ![image](https://user-images.githubusercontent.com/71915358/145659675-41505fa4-4f56-468d-81f9-e6025b431eac.png)
+                    - Screenshot #2 description: Error message if last name does not match account no.
+                - Screenshot #3: ![image](https://user-images.githubusercontent.com/71915358/145659700-035d8e2e-20db-42d8-9bc5-60c898904a04.png)
+                    - Screenshot #3 description: Error message if account no does not exist.
+                - Screenshot #4: ![image](https://user-images.githubusercontent.com/71915358/145659763-55e9c9f9-9687-497d-863a-fd7f39d7e51d.png)
+                    - Screenshot #4 description: Error message if both transfer options chosen.
+                - Screenshot #5: ![image](https://user-images.githubusercontent.com/71915358/145659789-4f44f5b1-d3fa-43ef-bcfe-c41863c2003f.png)
+                    - Screenshot #5 description: Transaction pair recorded as type ext-transfer.
+- Milestone 4
+    - [x] \(12/12/2021) User can set their profile to be public or private
+        - List of Evidence of Feature Completion
+            - Status: Completed
+            - Direct Link: https://rs2392-prod.herokuapp.com/Project/profile.php
+            - Pull Requests
+                -  PR link #1: https://github.com/sureshritika/IT202-001/pull/122
+            - Screenshots
+                - Screenshot #1: ![image](https://user-images.githubusercontent.com/71915358/147001730-f5d8aba6-e29b-4c3f-b988-fdc716b26ee0.png)
+                    - Screenshot #1 description: Checkbox updates Accounts table privacy column if checked or not checked.
+    - [x] \(12/19/2021) User will be able open a savings account
+        - List of Evidence of Feature Completion
+            - Status: Completed
+            - Direct Link: https://rs2392-prod.herokuapp.com/Project/create_account.php
+            - Pull Requests
+                -  PR link #1: https://github.com/sureshritika/IT202-001/pull/123
+            - Screenshots
+                - Screenshot #1: ![image](https://user-images.githubusercontent.com/71915358/147002127-2acb7aea-f155-47fd-bca5-acf6fc9b6a3d.png)
+                    - Screenshot #1 description: Empty create accounts page
+                - Screenshot #2: ![image](https://user-images.githubusercontent.com/71915358/147012260-cbcebf84-74bb-46b7-abcf-f3efcc03e166.png)
+                    - Screenshot #2 description: Calculate interest with apy.
+    - [x] \(12/19/2021) User will be able to take out a loan
+        - List of Evidence of Feature Completion
+            - Status: Completed
+            - Direct Link: https://rs2392-prod.herokuapp.com/Project/loan.php
+            - Pull Requests
+                -  PR link #1: https://github.com/sureshritika/IT202-001/pull/124
+            - Screenshots
+                - Screenshot #1: ![image](https://user-images.githubusercontent.com/71915358/147007978-d3d5c702-79eb-4a95-af33-43de8992225c.png)
+                    - Screenshot #1 description: Loan page.
+                - Screenshot #2: ![image](https://user-images.githubusercontent.com/71915358/147008461-7bec2c76-aedb-4601-bdd3-fc1b8852feaa.png)
+                    - Screenshot #2 description: Dropdown of user's accounts to deposit money into.
+    - [x] \(12/19/2021) Listing accounts and/or viewing Account Details should show any applicable APY or “-” if none is set for the particular account
+        - List of Evidence of Feature Completion
+            - Status: Completed
+            - Direct Link: https://rs2392-prod.herokuapp.com/Project/my_accounts.php
+            - Pull Requests
+                -  PR link #1: https://github.com/sureshritika/IT202-001/pull/125
+            - Screenshots
+                - Screenshot #1: ![image](https://user-images.githubusercontent.com/71915358/147008655-1b50156e-97c6-4804-96c7-24c77bee0ac4.png)
+                    - Screenshot #1 description: If applicable, account shows apy.
+    - [x] \(12/20/2021) User will be able to close an account
+        - List of Evidence of Feature Completion
+            - Status: Completed
+            - Direct Link: https://rs2392-prod.herokuapp.com/Project/transfer.php
+            - Pull Requests
+                -  PR link #1: https://github.com/sureshritika/IT202-001/pull/126
+            - Screenshots
+                - Screenshot #1: ![image](https://user-images.githubusercontent.com/71915358/147008870-f54ae962-82c4-402a-b3ab-47ca7cdec3f4.png)
+                    - Screenshot #1 description: BEFORE: 0sW5 is shown.
+                - Screenshot #2: ![image](https://user-images.githubusercontent.com/71915358/147008932-cc21c537-b1bc-40ad-9d20-2189a752ba8b.png)
+                    - Screenshot #2 description: AFTER: account not shown after transfer out all funds.
+    - [x] \(12/21/2021) Admin role
+        - List of Evidence of Feature Completion
+            - Status: Completed
+            - Direct Links: 
+              - Direct Link #1: https://rs2392-prod.herokuapp.com/Project/admin/user_management.php
+              - Direct Link #2: https://rs2392-prod.herokuapp.com/Project/admin/account_management.php
+              - Direct Link #3: https://rs2392-prod.herokuapp.com/Project/admin/admin_open.php
+            - Pull Requests
+                -  PR link #1: https://github.com/sureshritika/IT202-001/pull/127
+            - Screenshots
+                - Screenshot #1: ![image](https://user-images.githubusercontent.com/71915358/147010664-e7589e19-70d3-48e6-8a5b-32ded9008779.png)
+                    - Screenshot #1 description: Account Management page for admin roles. See all accounts together and search by first, last and account number. And freeze account.
+                - Screenshot #2: ![image](https://user-images.githubusercontent.com/71915358/147010869-4c1578af-9589-4e38-a456-c6ea54dbe2a0.png)
+                    - Screenshot #2 description: Search filters applied.
+                - Screenshot #3: ![image](https://user-images.githubusercontent.com/71915358/147010913-667aadc2-f1b3-43bd-b78b-180a1cee2cf3.png)
+                    - Screenshot #3 description: Freeze account. If frozen, unlocked img will show to unlock account. If not frozen, lock img will show to lock account.
+                - Screenshot #4: ![image](https://user-images.githubusercontent.com/71915358/147011031-aa054d4f-2070-4fe1-a739-d36d068b3bf3.png)
+                    - Screenshot #4 description: If account frozen, it will show but is not clickable.
+                - Screenshot #5: ![image](https://user-images.githubusercontent.com/71915358/147011107-c4570c7a-cd9d-4a10-b746-7ccbe9c8fb6d.png)
+                    - Screenshot #5 description: Open account for admin role.
+                - Screenshot #6: ![image](https://user-images.githubusercontent.com/71915358/147011148-db12d508-c5f6-42ed-a479-10dfbf6782f2.png)
+                    - Screenshot #6 description: Dropdown of all users to choose from to open an account in.
+                - Screenshot #7: ![image](https://user-images.githubusercontent.com/71915358/147011287-89fa7bae-b092-46a5-aab4-b37ff7a8876a.png)
+                    - Screenshot #7 description: To deactive user, if user is active, ban img will show to deactivate. if user deactivated, circle img will show to reactivate.
+                - Screenshot #8: ![image](https://user-images.githubusercontent.com/71915358/147011432-fc0ce0b9-f54c-430b-b292-972d6053dbdf.png)
+                    - Screenshot #8 description: BEFORE: Deactive user.
+                - Screenshot #9: ![image](https://user-images.githubusercontent.com/71915358/147011511-2fbe8759-1580-4551-9ca0-dc544454bd51.png)
+                    - Screenshot #9 description: AFTER: Deactivated user is restricted from logging in.
+### Intructions
+#### Don't delete this
+1. Pick one project type
+2. Create a proposal.md file in the root of your project directory of your GitHub repository
+3. Copy the contents of the Google Doc into this readme file
+4. Convert the list items to markdown checkboxes (apply any other markdown for organizational purposes)
+5. Create a new Project Board on GitHub
+   - Choose the Automated Kanban Board Template
+   - For each major line item (or sub line item if applicable) create a GitHub issue
+   - The title should be the line item text
+   - The first comment should be the acceptance criteria (i.e., what you need to accomplish for it to be "complete")
+   - Leave these in "to do" status until you start working on them
+   - Assign each issue to your Project Board (the right-side panel)
+   - Assign each issue to yourself (the right-side panel)
+6. As you work
+  1. As you work on features, create separate branches for the code in the style of Feature-ShortDescription (using the Milestone branch as the source)
+  2. Add, commit, push the related file changes to this branch
+  3. Add evidence to the PR (Feat to Milestone) conversation view comments showing the feature being implemented
+     - Screenshot(s) of the site view (make sure they clearly show the feature)
+     - Screenshot of the database data if applicable
+     - Describe each screenshot to specify exactly what's being shown
+     - A code snippet screenshot or reference via GitHub markdown may be used as an alternative for evidence that can't be captured on the screen
+  4. Update the checklist of the proposal.md file for each feature this is completing (ideally should be 1 branch/pull request per feature, but some cases may have multiple)
+    - Basically add an x to the checkbox markdown along with a date after
+      - (i.e.,   - [x] (mm/dd/yy) ....) See Template above
+    - Add the pull request link as a new indented line for each line item being completed
+    - Attach any related issue items on the right-side panel
+  5. Merge the Feature Branch into your Milestone branch (this should close the pull request and the attached issues)
+    - Merge the Milestone branch into dev, then dev into prod as needed
+    - Last two steps are mostly for getting it to prod for delivery of the assignment 
+  7. If the attached issues don't close wait until the next step
+  8. Merge the updated dev branch into your production branch via a pull request
+  9. Close any related issues that didn't auto close
+    - You can edit the dropdown on the issue or drag/drop it to the proper column on the project board
